@@ -41,16 +41,21 @@ nav {
     flex-direction: row;
     background-image: radial-gradient(circle at 120.71% 50%, #3fe487 0, #5ec49b 5%, #4fc5a5 10%, #3fc5af 15%, #2cc6b9 20%, #12c6c3 25%, #00c5cd 30%, #00c5d6 35%, #00c4df 40%, #00c3e6 45%, #f18509 50%, #4af1d3 55%, #f7d644 60%, #439fdd 65%, #6cb8fc 70%, #7db5fc 75%, #8eb1fc 80%, #9eaef9 85%, #adaaf6 90%, #bdabee 95%, #b890df 100%);
     border-style: groove;
-    border-width: 10px;
+    border-width: 5px;
 }
 
 nav a {
     color: blanchedalmond;
-    padding: 14px 20px;
+    padding: 10px 18px;
     text-decoration-color: aquamarine;
     border-style: groove double;
     border-width: 8px
     
+}
+
+.cabecera_link{
+    width: 20px;
+    width: 30px;
 }
 
 

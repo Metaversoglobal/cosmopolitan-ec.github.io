@@ -32,20 +32,18 @@ header {
 }
 
 
-nav span{
+.nav{
     
-    padding-left: 30px;
     flex-direction: column;
     box-shadow: #ffffff;    
-    background-color: rgba(170, 170, 170, 0.377);
-    border-style: groove;
-    border-width: 5px;
-    border-right: #125ac6;
+    border-width: 50px;
+    
 }
 
 .nave a{
     flex-direction: column;
-    padding: 20px 10px;
+    padding: 5px;
+    
     text-decoration-color: rgb(250, 250, 252);
     text-align: var(#00c3e6);
     color: #525252;

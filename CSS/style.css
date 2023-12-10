@@ -10,6 +10,7 @@ body {
 
 
 header {
+    min-height: min-content;
     background-image: url(/img/Digital\ Water.jpg);
     display: flex;
     padding: 5px;
@@ -27,45 +28,23 @@ header {
     width: 300px;
 }
 
-h1 {
-    color: #154bfd;
-    text-align: left;
-}
-
-.logo-nombre {
-    display: flex;
-    text-align: right;
-    align-items: baseline;
-    margin-right: 10px;
-
-
-}
-
-
-.text_asid {
-    display: flex;
-    border-width: 10px;
-    color: #2948af;
-
-}
-
-
-
 
 nav {
-    box-shadow: #0f0f0f;    
+    padding-left: 30px;
+    flex-direction: column;
+    box-shadow: #ffffff;    
     background-color: rgba(170, 170, 170, 0.377);
     border-style: groove;
     border-width: 5px;
-    border-right: #12c6c3;
+    border-right: #125ac6;
 }
 
-nav a {
-    
-    padding: 5px 10px;
+.nave a{
+    flex-direction: column;
+    padding: 20px 10px;
     text-decoration-color: rgb(250, 250, 252);
-    border-style: groove double;
-
+    text-align: var(#00c3e6);
+    color: #525252;
 }
 
 
@@ -144,6 +123,10 @@ footer {
 }
 
 @media screen and (max-width: 700px) {
+
+    header{
+        flex-direction: column;
+    }
 
     nav,
     .row {

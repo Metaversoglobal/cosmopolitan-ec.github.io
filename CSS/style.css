@@ -10,7 +10,7 @@ body {
 
 
 header {
-    
+
     display: flex;
     padding: 1px;
     border-block-start-style: groove;
@@ -138,7 +138,7 @@ footer {
 
 p.pointer {
     cursor: pointer;
-    
+
 }
 
 
@@ -148,5 +148,3 @@ div.arrastre {
     height: 200px;
     background-color: #ffffff;
 }
-
-

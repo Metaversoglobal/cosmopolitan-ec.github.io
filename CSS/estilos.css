@@ -1,5 +1,5 @@
-* {
-    background-image: url("img")
+*{
+    background-image: radial-gradient(circle at 120.71% 50%, #6cc392 0, #5ec49b 5%, #4fc5a5 10%, #3fc5af 15%, #2cc6b9 20%, #12c6c3 25%, #00c5cd 30%, #00c5d6 35%, #00c4df 40%, #00c3e6 45%, #0cc1ed 50%, #2dbff3 55%, #44bdf7 60%, #59bafa 65%, #6cb8fc 70%, #7db5fc 75%, #8eb1fc 80%, #9eaef9 85%, #adaaf6 90%, #bba7f1 95%, #c7a3eb 100%);
 }
 
 body {

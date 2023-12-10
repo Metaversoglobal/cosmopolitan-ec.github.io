@@ -1,3 +1,6 @@
+document.getElementsByTagName("h1")[0].style.fontSize = "6vw";
+
+
 const titulo = document.querySelector("#titulo");
 
 const rotacion = setInterval(() => {

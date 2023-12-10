@@ -4,40 +4,49 @@
 
 body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
     padding: 0%;
 }
 
+
+
 header {
+    
     display: flex;
-    padding: 10px;
-    background-image: radial-gradient(circle at 120.71% 50%, #6cc392 0, #5ec49b 5%, #4fc5a5 10%, #3fc5af 15%, #2cc6b9 20%, #12c6c3 25%, #00c5cd 30%, #00c5d6 35%, #00c4df 40%, #00c3e6 45%, #0cc1ed 50%, #2dbff3 55%, #44bdf7 60%, #59bafa 65%, #6cb8fc 70%, #7db5fc 75%, #8eb1fc 80%, #9eaef9 85%, #adaaf6 90%, #bba7f1 95%, #c7a3eb 100%);
-    align-items: center;
-    text-align: center;
-    border-style: double;
-    border-width: 5px;
+    padding: 1px;
+    border-block-start-style: groove;
+    border-block-end-style: double;
+    border-width: 10px;
+    border-radius: 1%;
 
 
 }
 
 .logo img {
+    border-radius: 2%;
     height: 150px;
-    width: 400px;
+    width: 300px;
 }
 
-#logo-nombre {
+h1 {
+    color: #154bfd;
+    text-align: left;
+}
+
+.logo-nombre {
     display: flex;
-    align-items: center;
+    text-align: right;
+    align-items: baseline;
     margin-right: 10px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #d67035;
+
 
 }
+
 
 .text_asid {
     display: flex;
     border-width: 10px;
     color: #154bfd;
+
 }
 
 
@@ -52,11 +61,10 @@ nav {
 }
 
 nav a {
-    color: blanchedalmond;
     padding: 10px 18px;
-    text-decoration-color: aquamarine;
+    text-decoration-color: rgb(61, 228, 172);
     border-style: groove double;
-    border-width: 8px
+    border-width: 4px
 }
 
 
@@ -127,3 +135,18 @@ footer {
         flex-direction: column;
     }
 }
+
+p.pointer {
+    cursor: pointer;
+    
+}
+
+
+div.arrastre {
+    cursor: move;
+    width: 200px;
+    height: 200px;
+    background-color: #ffffff;
+}
+
+

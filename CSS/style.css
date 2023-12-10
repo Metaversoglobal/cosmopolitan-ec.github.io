@@ -10,7 +10,7 @@ body {
 
 
 header {
-    background-image: url(/img/pngwing.com\ \(8\).png);
+    background-image: url(/img/Digital\ Water.jpg);
     display: flex;
     padding: 5px;
     border-block-start-style: groove;
@@ -53,16 +53,16 @@ h1 {
 
 
 nav {
-    display: flex;
-    flex-direction: row;
+    box-shadow: #0f0f0f;    
     background-color: rgba(170, 170, 170, 0.377);
     border-style: groove;
     border-width: 5px;
+    border-right: #12c6c3;
 }
 
 nav a {
     
-    padding: 10px 10px;
+    padding: 5px 10px;
     text-decoration-color: rgb(250, 250, 252);
     border-style: groove double;
 
@@ -83,7 +83,7 @@ nav a {
 aside {
     text-align: center;
     flex: 30px;
-    background-image: url(/img/fulls/03.jpg);
+    background-image: url(/img/Digital\ Water.jpg);
     padding: 20px;
     border-style: groove;
     border-width: 5px;
@@ -97,8 +97,8 @@ aside {
     text-decoration-line: underline;
     flex: 10px;
     padding: 20px;
-    border-color: #394413;
-    color: #154bfd;
+    border-color: #bbec08;
+    color: #0f0f0f;
     border-style: double;
     border-width: 5px;
 }
@@ -113,8 +113,8 @@ h3 {
 
 
 
-section {
-    flex: 40%;
+.sectionA {
+    flex: 20%;
     background-image: radial-gradient(circle at 120.71% 50%, #6cc392 0, #5ec49b 5%, #4fc5a5 10%, #3fc5af 15%, #2cc6b9 20%, #12c6c3 25%, #00c5cd 30%, #00c5d6 35%, #00c4df 40%, #00c3e6 45%, #0cc1ed 50%, #2dbff3 55%, #44bdf7 60%, #59bafa 65%, #6cb8fc 70%, #7db5fc 75%, #8eb1fc 80%, #9eaef9 85%, #adaaf6 90%, #bba7f1 95%, #c7a3eb 100%);
     padding: 20px;
 
@@ -122,13 +122,25 @@ section {
 
 }
 
+.sectionB{
+    flex: 10%;
+    border-style: double;
+    border-width: 5px;
+    background-image: url(/img/MegaTron\ \(1\).jpg);
+    padding: 10%;
+    white-space: 10%;
+}
 
+.h4 {
+    
+
+}
 
 footer {
     padding: 20px;
     text-align: center;
     text-shadow: #b8e907;
-    background-image: url(/img/Moonlit\ Asteroid.jpg);
+    background-image: url(/img/Red\ Sunset.jpg);
 }
 
 @media screen and (max-width: 700px) {

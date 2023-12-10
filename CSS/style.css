@@ -12,7 +12,7 @@ body {
 header {
 
     display: flex;
-    padding: 1px;
+    padding: 5px;
     border-block-start-style: groove;
     border-block-end-style: double;
     border-width: 10px;

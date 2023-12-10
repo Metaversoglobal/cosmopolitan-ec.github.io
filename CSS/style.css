@@ -10,7 +10,7 @@ body {
 
 
 header {
-
+    background-image: url(/img/fulls/03.jpg);
     display: flex;
     padding: 5px;
     border-block-start-style: groove;

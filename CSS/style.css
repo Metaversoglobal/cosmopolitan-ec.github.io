@@ -10,11 +10,11 @@ body {
 
 
 header {
-    background-image: url(/img/fulls/03.jpg);
+    background-image: url(/img/pngwing.com\ \(8\).png);
     display: flex;
     padding: 5px;
     border-block-start-style: groove;
-    border-block-end-style: double;
+    border-block-end-style: groove;
     border-width: 10px;
     border-radius: 1%;
 
@@ -45,7 +45,7 @@ h1 {
 .text_asid {
     display: flex;
     border-width: 10px;
-    color: #154bfd;
+    color: #2948af;
 
 }
 
@@ -55,34 +55,37 @@ h1 {
 nav {
     display: flex;
     flex-direction: row;
-    background-image: radial-gradient(circle at 120.71% 50%, #3fe487 0, #5ec49b 5%, #4fc5a5 10%, #3fc5af 15%, #2cc6b9 20%, #12c6c3 25%, #00c5cd 30%, #00c5d6 35%, #00c4df 40%, #00c3e6 45%, #f18509 50%, #4af1d3 55%, #f7d644 60%, #439fdd 65%, #6cb8fc 70%, #7db5fc 75%, #8eb1fc 80%, #9eaef9 85%, #adaaf6 90%, #bdabee 95%, #b890df 100%);
+    background-color: rgba(170, 170, 170, 0.377);
     border-style: groove;
     border-width: 5px;
 }
 
 nav a {
-    padding: 10px 18px;
-    text-decoration-color: rgb(61, 228, 172);
+    
+    padding: 10px 10px;
+    text-decoration-color: rgb(250, 250, 252);
     border-style: groove double;
-    border-width: 4px
+
 }
 
 
 
 
 .row {
-
+    padding-bottom: 1px;
+    padding-top: 1px;
     display: flex;
     flex-wrap: wrap;
     border-style: groove
+    
 }
 
 aside {
     text-align: center;
     flex: 30px;
-    background-image: radial-gradient(circle at 120.71% 50%, #6cc392 0, #5ec49b 5%, #4fc5a5 10%, #3fc5af 15%, #2cc6b9 20%, #12c6c3 25%, #00c5cd 30%, #00c5d6 35%, #00c4df 40%, #00c3e6 45%, #0cc1ed 50%, #2dbff3 55%, #44bdf7 60%, #59bafa 65%, #6cb8fc 70%, #7db5fc 75%, #8eb1fc 80%, #9eaef9 85%, #adaaf6 90%, #bba7f1 95%, #c7a3eb 100%);
+    background-image: url(/img/fulls/03.jpg);
     padding: 20px;
-    border-style: double;
+    border-style: groove;
     border-width: 5px;
 
 
@@ -104,7 +107,7 @@ h3 {
 
     text-align: center;
     padding: auto;
-    text-shadow: 6px 6px 7px #f7f7a4;
+    text-shadow: 3px 6px 3px #b3b2b2;
 }
 
 
@@ -125,7 +128,7 @@ footer {
     padding: 20px;
     text-align: center;
     text-shadow: #b8e907;
-    background-color: rgb(160, 153, 153);
+    background-image: url(/img/fulls/07.jpg);
 }
 
 @media screen and (max-width: 700px) {

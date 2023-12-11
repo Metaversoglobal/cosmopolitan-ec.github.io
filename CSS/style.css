@@ -34,16 +34,21 @@ header {
     display: flex;
     height: 160px;
     width: 350px;
-    
+    margin: 0 auto;
+    /* Centers the image horizontally */
+    align-self: center;
+    /* Centers the image vertically within a flex container */
 }
-nave{
+
+
+nave {
     padding-top: 10px;
     padding-left: 40%;
     padding-right: 0%;
 }
 
-nav{
-    
+nav {
+
     background-color: #928b8b;
 }
 

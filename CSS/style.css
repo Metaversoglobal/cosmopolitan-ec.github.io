@@ -5,7 +5,16 @@
 body {
 
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    padding: 0%;
+    padding: 0;
+    margin: 0;
+    background-image: url(/img/Digital\ Water.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    max-height: max-content;
+    min-height: 100vh;
     border-radius: 5%;
 }
 
@@ -13,6 +22,8 @@ body {
 
 header {
 
+    max-width: max-content;
+    max-height: max-content;
     min-height: min-content;
     background-image: url(/img/Digital\ Water.jpg);
     display: flex;
@@ -37,31 +48,23 @@ header {
     margin: 0 auto;
     /* Centers the image horizontally */
     align-self: center;
+    border-radius: 50%;
     /* Centers the image vertically within a flex container */
 }
 
 
-nave {
-    padding-top: 10px;
-    padding-left: 40%;
-    padding-right: 0%;
-}
 
-nav {
-
-    background-color: #928b8b;
-}
-
-
-.nave a {
+.menu {
     flex: content;
-    padding: 10%;
-    padding-left: 10%;
-    padding-right: 30%;
-    padding-bottom: 10%;
     text-decoration-color: rgb(250, 250, 252);
-    text-align: var(#00c3e6);
+    text-align: center;
+    background-image: url(/img/Digital\ Water.jpg);
+    padding: 20px;
     color: #525252;
+    border-style: groove;
+    border-width: 10px;
+    border-radius: 5%;
+
 }
 
 
@@ -72,12 +75,14 @@ nav {
     padding-top: 1px;
     display: flex;
     flex-wrap: wrap;
-    border-style: groove
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 5%;
 }
 
 aside {
     text-align: center;
-    flex: 30px;
+    flex: 10px;
     background-image: url(/img/Digital\ Water.jpg);
     padding: 20px;
     border-style: groove;
@@ -92,12 +97,19 @@ aside {
     text-decoration-line: underline;
     flex: 10px;
     padding: 20px;
-    border-color: #bbec08;
+    border-color: solid;
+    border-radius: 5%;
     color: #0f0f0f;
     border-style: double;
     border-width: 5px;
 }
 
+
+h2 {
+    text-align: center;
+    padding: auto;
+    text-shadow: 3px 6px 3px #b3b2b2;
+}
 h3 {
 
     text-align: center;
@@ -155,4 +167,20 @@ div.arrastre {
     width: 200px;
     height: 200px;
     background-color: #ffffff;
+}
+
+/* Estilos para pantallas más pequeñas */
+@media screen and (max-width: 700px) {
+    header {
+        flex-direction: column;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+}
+
+/* Otros estilos para pantallas más grandes */
+@media screen and (min-width: 701px) {
+    /* Agrega aquí los estilos que deseas aplicar en pantallas más grandes */
 }

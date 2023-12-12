@@ -50,132 +50,160 @@ header {
     border-radius: 50%;
     /* Centers the image vertically within a flex container */
 }
-
-
+.contenedor{
+    
+    font-size: larger;
+    text-align: center;
+    color: #1148fd;
+   
+}
 
 .menu {
-    font-size: x-large;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    flex: content;
-    width: 50%;
-    height: 30%;
-}
-
-
-footer {
-    max-width: max-content;
-    max-height: max-content;
-    min-height: min-content;
-    min-width: min-content;
-    background-image: url(/img/thumbs/02.jpg);
-
-}
-
-.row {
-    padding-bottom: 1px;
-    padding-top: 1px;
-    display: flex;
-    flex-wrap: wrap;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
     border-style: solid;
-    border-width: 10px;
-    border-radius: 5%;
-}
-
-aside {
-    text-align: center;
-    flex: 10px;
-    background-image: url(/img/Digital\ Water.jpg);
-    padding: 20px;
-    border-style: groove;
     border-width: 5px;
-
-
-}
-
-
-.section2 {
-
-    text-decoration-line: underline;
-    flex: 10px;
-    padding: 20px;
-    border-color: solid;
     border-radius: 5%;
-    color: #0f0f0f;
+    color: #797979;
     border-style: double;
     border-width: 5px;
-}
-
-
-h2 {
-    text-align: center;
-    padding: auto;
-    text-shadow: 3px 6px 3px #b3b2b2;
-}
-
-h3 {
-
-    text-align: center;
-    padding: auto;
-    text-shadow: 3px 6px 3px #b3b2b2;
-}
-
-
-.sectionA {
-    flex: 20%;
-    background-image: radial-gradient(circle at 120.71% 50%, #6cc392 0, #5ec49b 5%, #4fc5a5 10%, #3fc5af 15%, #2cc6b9 20%, #12c6c3 25%, #00c5cd 30%, #00c5d6 35%, #00c4df 40%, #00c3e6 45%, #0cc1ed 50%, #2dbff3 55%, #44bdf7 60%, #59bafa 65%, #6cb8fc 70%, #7db5fc 75%, #8eb1fc 80%, #9eaef9 85%, #adaaf6 90%, #bba7f1 95%, #c7a3eb 100%);
-    padding: 20px;
-
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    container: flex;
+    flex-wrap: wrap;
 
 }
 
-.sectionB {
-    flex: 10%;
-    border-style: double;
-    border-width: 5px;
-    background-image: url(/img/MegaTron\ \(1\).jpg);
-    padding: 10%;
-    white-space: 10%;
-}
 
-.h4 {}
+    footer {
+        max-width: max-content;
+        max-height: max-content;
+        min-height: min-content;
+        min-width: min-content;
+        background-image: url(/img/thumbs/02.jpg);
 
-footer {
-    padding: 20px;
-    text-align: center;
-    text-shadow: #b8e907;
-    background-image: url(/img/Red\ Sunset.jpg);
-}
-
-@media screen and (max-width: 700px) {
-
-    header {
-        flex-direction: column;
     }
 
-    nav,
     .row {
-        flex-direction: column;
+        padding-bottom: 1px;
+        padding-top: 1px;
+        display: flex;
+        flex-wrap: wrap;
+        border-style: solid;
+        border-width: 10px;
+        border-radius: 5%;
     }
-}
 
-p.pointer {
-    cursor: pointer;
+    .pointer {
+        cursor: pointer;
 
-}
-
-
-div.arrastre {
-    cursor: move;
-    width: 200px;
-    height: 200px;
-    background-color: #ffffff;
-}
+    }
 
 
-/* Otros estilos para pantallas más grandes */
-@media screen and (min-width: 701px) {
-    /* Agrega aquí los estilos que deseas aplicar en pantallas más grandes */
-}
+
+    aside {
+
+        flex: 10px;
+        padding: 20px;
+        border-color: solid;
+        border-radius: 5%;
+        color: #0f0f0f;
+        border-style: double;
+        border-width: 5px;
+
+
+    }
+
+
+    .section2 {
+
+        text-decoration-line: underline;
+        flex: 10px;
+        padding: 20px;
+        border-color: solid;
+        border-radius: 5%;
+        color: #0f0f0f;
+        border-style: double;
+        border-width: 5px;
+    }
+
+
+    h2 {
+        text-align: center;
+        padding: auto;
+        text-shadow: 3px 6px 3px #b3b2b2;
+    }
+
+    h3 {
+
+        text-align: center;
+        padding: auto;
+        text-shadow: 3px 6px 3px #b3b2b2;
+    }
+
+
+    .sectionA {
+        flex: 20%;
+        background-image: radial-gradient(circle at 120.71% 50%, #6cc392 0, #5ec49b 5%, #4fc5a5 10%, #3fc5af 15%, #2cc6b9 20%, #12c6c3 25%, #00c5cd 30%, #00c5d6 35%, #00c4df 40%, #00c3e6 45%, #0cc1ed 50%, #2dbff3 55%, #44bdf7 60%, #59bafa 65%, #6cb8fc 70%, #7db5fc 75%, #8eb1fc 80%, #9eaef9 85%, #adaaf6 90%, #bba7f1 95%, #c7a3eb 100%);
+        padding: 20px;
+
+
+    }
+
+
+
+    .sectionB {
+        flex: 10%;
+        border-style: double;
+        border-width: 5px;
+        background-image: url(/img/MegaTron\ \(1\).jpg);
+        padding: 10%;
+        white-space: 10%;
+    }
+
+    .h4 {}
+
+    footer {
+        padding: 20px;
+        text-align: center;
+        text-shadow: #b8e907;
+        background-image: url(/img/Red\ Sunset.jpg);
+    }
+
+    @media screen and (max-width: 700px) {
+
+        header {
+            flex-direction: column;
+        }
+
+        nav,
+        .row {
+            flex-direction: column;
+        }
+    }
+
+    p.pointer {
+        cursor: pointer;
+
+    }
+
+
+    div.arrastre {
+        cursor: move;
+        width: 200px;
+        height: 200px;
+        background-color: #ffffff;
+    }
+
+
+    /* Otros estilos para pantallas más grandes */
+    @media screen and (min-width: 701px) {
+        /* Agrega aquí los estilos que deseas aplicar en pantallas más grandes */
+    }

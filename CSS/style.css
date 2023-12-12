@@ -54,60 +54,25 @@ header {
 
 
 .menu {
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     flex: content;
-    text-decoration-color: rgb(250, 250, 252);
-    text-align: center;
-    background-image: url(/img/Digital\ Water.jpg);
-    padding: 20px;
-    color: #525252;
-    border-style: groove;
-    border-width: 10px;
-    border-radius: 5%;
-
+    width: 50%;
+    height: 30%;
 }
 
-.ofert{
-    flex: content;
-    text-decoration-color: rgb(149, 211, 87);
-    text-align: center;
-    padding: 40px;
-    color: #525252;
-    border-style: groove;
-    border-width: 6px;
-    border-radius: 5%;
-}
 
 footer {
-    height: max-content;
     max-width: max-content;
+    max-height: max-content;
     min-height: min-content;
-    background-image: url(/img/Digital\ Water.jpg);
-    display: flex;
-    align-items: flex-start;
-    padding: 5px;
-    border-block-start-style: groove;
-    border-block-end-style: groove;
-    border-width: 10px;
-    border-radius: 5%;
-    flex: 10px;
-    padding: 20px;
-    border-color: solid;
-    border-radius: 5%;
-    color: #0f0f0f;
-    border-style: double;
-    border-width: 5px;
-    text-align: center;
-    flex: 10px;
-    padding: 20px;
-    border-color: solid;
-    border-radius: 5%;
-    color: #0f0f0f;
-    border-style: double;
-    border-width: 5px;
+    min-width: min-content;
+    background-image: url(/img/thumbs/02.jpg);
+
 }
-
-
-
 
 .row {
     padding-bottom: 1px;
@@ -209,16 +174,6 @@ div.arrastre {
     background-color: #ffffff;
 }
 
-/* Estilos para pantallas más pequeñas */
-@media screen and (max-width: 700px) {
-    header {
-        flex-direction: column;
-    }
-
-    .row {
-        flex-direction: column;
-    }
-}
 
 /* Otros estilos para pantallas más grandes */
 @media screen and (min-width: 701px) {

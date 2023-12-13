@@ -24,16 +24,7 @@ header {
     max-width: max-content;
     max-height: max-content;
     min-height: min-content;
-    background-image: url(/img/Digital\ Water.jpg);
-    display: flex;
-    align-items: flex-start;
-    padding: 5px;
-    border-block-start-style: groove;
-    border-block-end-style: groove;
-    border-width: 10px;
-    border-radius: 5%;
-    
-
+    min-width: min-content;
 
 }
 
@@ -56,32 +47,16 @@ header {
     font-size: larger;
     text-align: center;
     color: #1148fd;
-   
+    
 }
+  .contenedor{
+    padding: 10%;
+    flex-direction: row;
+    font-size: larger;
+    text-align: center;
+    color: #ce11fd;
+ }
 
-.menu {
-    padding-left: 10px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    padding-right: 10px;
-    border-style: solid;
-    border-width: 5px;
-    border-radius: 15%;
-    color: #797979;
-    border-style: double;
-    border-width: 5px;
-    display: flex;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    container: flex;
-    flex-wrap: wrap;
-    box-shadow: 2px 2px 5px #797979;
-   
-}
 
 
     footer {
